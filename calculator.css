@@ -1,0 +1,59 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+}
+.grid-item {
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+button {
+    border: hidden;
+}
+
+#plus, #minus, #multi, #devide {
+    background-color: rgb(209, 128, 155);
+}
+#plus:hover, #minus:hover, #multi:hover, #devide:hover{
+    background-color: rgb(160, 100, 120);
+}
+
+#equal, #clear {
+    background-color: burlywood;
+}
+#equal:hover, #clear:hover {
+    background-color: rgb(163, 136, 100);
+}
+
+#number{
+    background-color: rgb(114, 176, 179);
+}
+#number:hover {
+    background-color: rgb(86, 132, 134);
+}
+
+.display {
+    border:rgb(195, 125, 125) solid 5px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: 0.6%;
+    text-align: end;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* .history {
+    color: gray;
+    text-align: start;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+} */

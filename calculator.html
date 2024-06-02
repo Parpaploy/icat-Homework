@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <!-- <button id="historyButton" onclick="showHistory">history</button> -->
+    <div class="display">
+        <!-- <div id="history" class="history"></div> -->
+        <div id="result" class="result">0</div>
+    </div>
+    <div class="grid-container">
+        <button class="grid-item" id="clear" style="
+            grid-column-start: 1;
+        grid-column-end: 4;
+               ">Clear</button>
+        <button value="+" onclick="addFormula(this.value)" class="grid-item" id="plus">+</button>
+        <button value="7" onclick="addFormula(this.value)" class="grid-item" id="number">7</button>
+        <button value="8" onclick="addFormula(this.value)" class="grid-item" id="number">8</button>
+        <button value="9" onclick="addFormula(this.value)" class="grid-item" id="number">9</button>
+        <button value="-" onclick="addFormula(this.value)" class="grid-item" id="minus">-</button>
+        <button value="4" onclick="addFormula(this.value)" class="grid-item" id="number">4</button>
+        <button value="5" onclick="addFormula(this.value)" class="grid-item" id="number">5</button>
+        <button value="6" onclick="addFormula(this.value)" class="grid-item" id="number">6</button>
+        <button value="*" onclick="addFormula(this.value)" class="grid-item" id="multi">*</button>
+        <button value="1" onclick="addFormula(this.value)" class="grid-item" id="number">1</button>
+        <button value="2" onclick="addFormula(this.value)" class="grid-item" id="number">2</button>
+        <button value="3" onclick="addFormula(this.value)" class="grid-item" id="number">3</button>
+        <button value="/" onclick="addFormula(this.value)" class="grid-item" id="devide">/</button>
+        <button value="0" onclick="addFormula(this.value)" class="grid-item" style="
+            grid-column-start: 1;
+            grid-column-end: 3;
+        " id="number">0</button>
+        <button class="grid-item" id="equal" style="
+        grid-column-start: 3;
+        grid-column-end: 5;
+    ">=</button>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
